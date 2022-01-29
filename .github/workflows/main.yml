@@ -42,4 +42,4 @@ jobs:
         run: npm install -g surge
         
       - name: Deploying on Surge
-        run: surge ./build https://multistep-form-formik-yup.surge.sh/form/ --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build https://multistep-form-formik-yup.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
